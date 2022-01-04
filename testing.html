@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/r8thZ0R6s7s?autoplay=1"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+  </body>
+</html>
+
+<!-- header  -->
+
+<header class="main-header">
+  <div class="topbar">
+    <div class="container">
+      <div class="topbar__left">
+        <div class="topbar__social">
+          <a href="#" class="fab fa-facebook-square"></a>
+          <a href="#" class="fab fa-twitter"></a>
+          <a href="#" class="fab fa-pinterest-p"></a>
+          <a href="#" class="fab fa-instagram"></a>
+        </div>
+        <!-- /.topbar__social -->
+        <p>
+          Welcome to Ripuraj Agro – Premium Quality Jeera Rice & Basmati Rice
+        </p>
+      </div>
+      <!-- /.topbar__left -->
+      <div class="topbar__right">
+        <a href="mailto:info@ripurajagro.co.in"
+          ><i class="agrikon-icon-email"></i>info@ripurajagro.co.in</a
+        >
+        <a href="#"
+          ><i class="agrikon-icon-clock"></i>Mon - Sat 8:00 - 6:30, Sunday -
+          CLOSED</a
+        >
+      </div>
+      <!-- /.topbar__right -->
+    </div>
+    <!-- /.container -->
+  </div>
+  <!-- /.topbar -->
+
+  <!------------------------------------------- navbar start ---------------------------------------->
+  <nav class="main-menu">
+    <div class="container">
+      <div class="logo-box">
+        <a href="index.html" aria-label="logo image"
+          ><img src="assets/images/loader2.png" width="153" alt=""
+        /></a>
+        <span class="fa fa-bars mobile-nav__toggler"></span>
+      </div>
+      <!-- /.logo-box -->
+      <ul class="main-menu__list">
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li class="dropdown">
+          <a href="about.html">About</a>
+          <ul>
+            <li><a href="#">About Company</a></li>
+            <li><a href="#">Vision & Mission</a></li>
+            <li><a href="#">Achievements</a></li>
+            <li><a href="#">What we Do</a></li>
+            <li><a href="#">Why Choose Us</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="product.html">Products</a>
+        </li>
+        <li>
+          <a href="testing.html">Careers</a>
+          <!-- <ul>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="project-details.html">Projects Details</a></li>
+          </ul> -->
+        </li>
+
+        <li>
+          <a href="contact.html">Contact</a>
+          <!-- <ul>
+            <li><a href="blog.html">News</a></li>
+            <li><a href="blog-details.html">News Details</a></li>
+          </ul> -->
+        </li>
+      </ul>
+      <!-- /.main-menu__list -->
+
+      <div class="main-header__info">
+        <a href="tel:+91 990 5555 666" class="main-header__info-phone">
+          <i class="agrikon-icon-phone-call"></i>
+          <span class="main-header__info-phone-content">
+            <span class="main-header__info-phone-text">Call Anytime</span>
+            <span class="main-header__info-phone-title"
+              >+91 990 5555 666</span
+            > </span
+          ><!-- /.main-header__info-phone-content --> </a
+        ><!-- /.main-header__info-phone -->
+      </div>
+      <!-- /.main-header__info -->
+    </div>
+    <!-- /.container -->
+  </nav>
+  <!-- /.main-menu -->
+</header>
+
+<!--  header with video implemented -->
+<section class="main-slider">
+  <div
+    class="swiper-container thm-swiper__slider"
+    data-swiper-options='{
+  "slidesPerView": 1,
+  "loop": true,
+  "effect": "fade",
+  
+  "navigation": {
+      "nextEl": "#main-slider__swiper-button-next",
+      "prevEl": "#main-slider__swiper-button-prev"
+  }
+}'
+  >
+    <div class="swiper-wrapper">
+      <div class="swiper-slide video-container">
+        <div
+          class="image-layer"
+          style="
+            background-image: url(assets/images/main-slider/main-slider-1-1.jpg);
+          "
+        ></div>
+
+        <div class="image-layer">
+          <video autoplay muted loop>
+            <source
+              src="assets/images/main-slider/video1.mp4"
+              type="video/mp4"
+            />
+          </video>
+        </div>
+        <!-- /.image-layer -->
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-7 col-lg-7">
+              <span class="tagline">Welcome to Rituraj Agro</span>
+              <h2>
+                <span>A Dish</span> <br />
+                To Remember
+              </h2>
+              <p>
+                Elevate your plate with the quality rice that leaves after
+                <br />taste in your mouth!
+              </p>
+              <a href="#" class="thm-btn">Discover More</a>
+              <!-- /.thm-btn dynamic-radius -->
+            </div>
+            <!-- /.col-lg-7 text-right -->
+          </div>
+          <!-- /.row -->
+        </div>
+        <!-- /.container -->
+      </div>
+      <!-- /.swiper-slide -->
+      <div class="swiper-slide video-container">
+        <div class="image-layer">
+          <video autoplay muted loop>
+            <source
+              src="assets/images/main-slider/video2.mp4"
+              type="video/mp4"
+            />
+          </video>
+        </div>
+        <!-- /.image-layer -->
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-7 col-lg-7">
+              <span class="tagline">Welcome to Rituraj Agro</span>
+              <h2>
+                <span>A Dish</span> <br />
+                To Remember
+              </h2>
+              <p>
+                Elevate your plate with the quality rice that leaves after
+                <br />taste in your mouth!
+              </p>
+              <a href="#" class="thm-btn">Discover More</a>
+              <!-- /.thm-btn dynamic-radius -->
+            </div>
+            <!-- /.col-lg-7 text-right -->
+          </div>
+          <!-- /.row -->
+        </div>
+        <!-- /.container -->
+      </div>
+      <!-- /.swiper-slide -->
+    </div>
+    <!-- /.swiper-wrapper -->
+
+    <!-- If we need navigation buttons -->
+    <div class="main-slider__nav">
+      <div class="swiper-button-prev" id="main-slider__swiper-button-next">
+        <i class="agrikon-icon-left-arrow"></i>
+      </div>
+      <div class="swiper-button-next" id="main-slider__swiper-button-prev">
+        <i class="agrikon-icon-right-arrow"></i>
+      </div>
+    </div>
+    <!-- /.main-slider__nav -->
+  </div>
+  <!-- /.swiper-container thm-swiper__slider -->
+</section>
+
+<!-- footer -->
+<footer class="site-footer">
+  <img
+    src="assets/images/icons/footer-bg-.png"
+    class="site-footer__shape-1"
+    alt=""
+  />
+  <img
+    src="assets/images/icons/footer-bg-icon-2.png"
+    class="site-footer__shape-2"
+    alt=""
+  />
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4">
+        <div class="footer-widget">
+          <a href="index.html" class="footer-widget__Logo">
+            <img src="assets/images/loader2.png" width="153" alt="" />
+          </a>
+          <p>
+            There are many variations of passages of lorem ipsum available, but
+            the majority suffered.
+          </p>
+
+          <div class="footer__social">
+            <a href="#" class="fab fa-facebook-square"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-pinterest-p"></a>
+            <a href="#" class="fab fa-instagram"></a>
+          </div>
+          <!-- /.topbar__social -->
+        </div>
+        <!-- /.footer-widget -->
+      </div>
+      <!-- /.col-sm-12 col-md-6 col-lg-4 -->
+      <div class="col-sm-12 col-md-6 col-lg-6 col-xl-2">
+        <div class="footer-widget footer-widget__links-widget">
+          <h3 class="footer-widget__title">Links</h3>
+          <!-- /.footer-widget__title -->
+          <ul class="list-unstyled footer-widget__links">
+            <li><a href="#">About Company</a></li>
+            <li><a href="#">What we do</a></li>
+            <li><a href="#">Why choose us</a></li>
+            <li><a href="#">Future Plans</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+          <!-- /.list-unstyled -->
+        </div>
+        <!-- /.footer-widget -->
+      </div>
+      <!-- /.col-sm-12 col-md-6 col-lg-2 -->
+      <div class="col-sm-12 col-md-6 col-lg-6 col-xl-3">
+        <div class="footer-widget">
+          <h3 class="footer-widget__title">More</h3>
+          <!-- /.footer-widget__title -->
+          <ul class="list-unstyled footer-widget__links">
+            <li><a href="recipes.html">Recipes</a></li>
+            <li><a href="#">Infrastructure & Plants</a></li>
+            <li><a href="gallery.html">Photo Gallary</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+          <!-- /.list-unstyled footer-widget__post -->
+        </div>
+        <!-- /.footer-widget -->
+      </div>
+      <!-- /.col-sm-12 col-md-6 col-lg-3 -->
+      <div class="col-sm-12 col-md-6 col-lg-6 col-xl-3">
+        <h3 class="footer-widget__title">Contact</h3>
+        <!-- /.footer-widget__title -->
+        <ul class="list-unstyled footer-widget__contact">
+          <li>
+            <i class="agrikon-icon-telephone"></i>
+            <a href="tel:+91 990 5555 666">+91 990 5555 666</a>
+          </li>
+          <li>
+            <i class="agrikon-icon-email"></i>
+            <a href="mailto:info@ripurajagro.co.in">info@ripurajagro.co.in</a>
+          </li>
+          <li>
+            <i class="agrikon-icon-pin"></i>
+            <a href="contact.html">All Branch Locations</a>
+          </li>
+        </ul>
+        <!-- /.list-unstyled -->
+      </div>
+      <!-- /.col-sm-12 col-md-6 col-lg-3 -->
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+</footer>
+
+<!-- testimonial section -->
+<section class="testimonials-one">
+  <img
+    src="assets/images/icons/testimonials-bg-1-1.png"
+    class="testimonials-one__bg"
+    alt=""
+  />
+  <div class="container">
+    <h2 class="testimonials-one__title">Testimonials</h2>
+    <div
+      id="testimonials-one__carousel"
+      class="testimonials-one__carousel swiper-container"
+    >
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="testimonials-one__icons">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <!-- /.testimonials-one__icons -->
+          <p>
+            " As the 2017, champaran satyagraha satabdi, Motihari, I Found
+            Sonashakti Rice is a modern answer to all the challenges of
+            producing food in an environmentally- fragile world. It’s native so
+            adapted… "
+          </p>
+        </div>
+        <!-- /.swiper-slide -->
+        <div class="swiper-slide">
+          <div class="testimonials-one__icons">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <!-- /.testimonials-one__icons -->
+          <p>
+            " I can't often write a fan letter about any prepared food today,
+            but your Sonashakti Rice is the major exception! It's the only Rice
+            I plan to eat for the… "
+          </p>
+        </div>
+        <!-- /.swiper-slide -->
+        <div class="swiper-slide">
+          <div class="testimonials-one__icons">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <!-- /.testimonials-one__icons -->
+          <p>" Thank you for the love in your food! "</p>
+        </div>
+
+        <!-- /.swiper-slide -->
+      </div>
+      <!-- /.swiper-wrapper -->
+    </div>
+    <!-- /#testimonials-one__carousel -->
+
+    <div id="testimonials-one__thumb" class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="testimonials-one__image">
+            <img src="assets/images/resources/testimonials-1-1.jpg" alt="" />
+          </div>
+          <!-- /.testimonials-one__image -->
+        </div>
+        <!-- /.swiper-slide -->
+        <div class="swiper-slide">
+          <div class="testimonials-one__image">
+            <img src="assets/images/resources/testimonials-1-2.jpg" alt="" />
+          </div>
+          <!-- /.testimonials-one__image -->
+        </div>
+        <!-- /.swiper-slide -->
+        <div class="swiper-slide">
+          <div class="testimonials-one__image">
+            <img src="assets/images/resources/testimonials-1-3.jpg" alt="" />
+          </div>
+          <!-- /.testimonials-one__image -->
+        </div>
+        <!-- /.swiper-slide -->
+      </div>
+      <!-- /.swiper-wrapper -->
+    </div>
+    <!-- /#testimonials-one__thumb.swiper-container -->
+
+    <div
+      id="testimonials-one__meta"
+      class="testimonials-one__carousel swiper-container"
+    >
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="testimonials-one__meta">
+            <h4>DHARMENDRA KUMAR</h4>
+            <span>Customer</span>
+          </div>
+          <!-- /.testimonials-one__meta -->
+        </div>
+        <!-- /.swiper-slide -->
+        <div class="swiper-slide">
+          <div class="testimonials-one__meta">
+            <h4>DURGA NAND JHA, PATNA</h4>
+            <span>Customer</span>
+          </div>
+          <!-- /.testimonials-one__meta -->
+        </div>
+        <!-- /.swiper-slide -->
+        <div class="swiper-slide">
+          <div class="testimonials-one__meta">
+            <h4>NISHANT RANJAN, MUZZAFARPUR</h4>
+            <span>Customer</span>
+          </div>
+          <!-- /.testimonials-one__meta -->
+        </div>
+        <!-- /.swiper-slide -->
+      </div>
+      <!-- /.swiper-wrapper -->
+    </div>
+    <!-- /#testimonials-one__meta.swiper-container -->
+    <div
+      class="swiper-pagination"
+      id="testimonials-one__swiper-pagination"
+    ></div>
+  </div>
+  <!-- /.container -->
+</section>

@@ -2013,9 +2013,9 @@ h6 {
 }
 
 .block-title__image {
-  background-image: url(../images/loader.png);
+  background-image: url(../images/icon.png);
   background-size: 100%;
-  width: 24px;
+  width: 30px;
   height: 25px;
   background-position: center center;
   background-repeat: no-repeat;
@@ -3551,6 +3551,20 @@ h6 {
   transition: transform 7000ms ease, -webkit-transform 7000ms ease;
 }
 
+.video-container {
+  height: 700px;
+  width: 700px;
+  overflow: hidden;
+  position: relative;
+}
+.video-container video {
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
 .main-slider .swiper-slide .container {
   padding-top: 162.5px;
   padding-bottom: 182.5px;
@@ -3728,6 +3742,7 @@ h6 {
 .main-slider .swiper-slide-active .image-layer {
   -webkit-transform: scale(1.15);
   transform: scale(1.15);
+  opacity: 0.6;
 }
 
 .main-slider .swiper-slide-active .thm-btn,
