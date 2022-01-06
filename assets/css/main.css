@@ -3524,6 +3524,7 @@ h6 {
 /*--------------------------------------------------------------
 # Main Slider
 --------------------------------------------------------------*/
+
 .main-slider {
   overflow: hidden;
   position: relative;
@@ -3531,6 +3532,7 @@ h6 {
 
 .main-slider .swiper-slide {
   position: relative;
+
   background-color: var(--thm-black);
 }
 
@@ -3545,30 +3547,20 @@ h6 {
   -webkit-transform: scale(1);
   transform: scale(1);
   background-position: center;
-  -webkit-transition: -webkit-transform 7000ms ease;
+  /* -webkit-transition: -webkit-transform 7000ms ease;
   transition: -webkit-transform 7000ms ease;
   transition: transform 7000ms ease;
-  transition: transform 7000ms ease, -webkit-transform 7000ms ease;
+  transition: transform 7000ms ease, -webkit-transform 7000ms ease; */
 }
 
-.video-container {
-  height: 700px;
-  width: 700px;
-  overflow: hidden;
-  position: relative;
-}
-.video-container video {
-  min-width: 100%;
-  min-height: 100%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-}
 .main-slider .swiper-slide .container {
   padding-top: 162.5px;
   padding-bottom: 182.5px;
 }
+/* .main-slider .swiper-slide .container {
+  padding-top: 15px;
+  padding-bottom: 15px;
+} */
 
 @media (max-width: 991px) {
   .main-slider .swiper-slide .container {
@@ -3579,10 +3571,50 @@ h6 {
 
 @media (max-width: 425px) {
   .main-slider .swiper-slide .container {
-    padding-top: 110px;
-    padding-bottom: 110px;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
 }
+
+/* banner image responsive start */
+/* @media (max-width: 1440px) and (min-width: 1025px) {
+  .main-slider .swiper-slide .container {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+@media (max-width: 1024px) and (min-width: 769px) {
+  .main-slider .swiper-slide .container {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+@media (max-width: 768px) and (min-width: 426px) {
+  .main-slider .swiper-slide .image-layer {
+    top: -140px;
+  }
+}
+@media (max-width: 768px) and (min-width: 426px) {
+  .main-slider .swiper-slide .container {
+  }
+}
+@media (max-width: 425px) and (min-width: 376px) {
+  .main-slider .swiper-slide .image-layer {
+    top: -140px;
+  }
+}
+@media (max-width: 375px) and (min-width: 321px) {
+  .contact-us-img {
+    width: 350px;
+  }
+}
+@media (max-width: 320px) {
+  .contact-us-img {
+    width: 300px;
+  }
+} */
+
+/* banner image responsive end */
 
 .main-slider .swiper-slide .tagline {
   display: block;
@@ -3740,9 +3772,9 @@ h6 {
 }
 
 .main-slider .swiper-slide-active .image-layer {
-  -webkit-transform: scale(1.15);
-  transform: scale(1.15);
-  opacity: 0.6;
+  /* -webkit-transform: scale(1.15);
+  transform: scale(1.15); */
+  opacity: 0.9;
 }
 
 .main-slider .swiper-slide-active .thm-btn,
