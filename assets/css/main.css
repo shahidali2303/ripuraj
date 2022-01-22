@@ -8550,9 +8550,7 @@ h6 {
 }
 
 /* testimonial-slider css */
-#testimonial-slider {
-  overflow: hidden;
-}
+
 .slider-box {
   position: relative;
   overflow: hidden;
@@ -8602,17 +8600,7 @@ h6 {
     width: 100%;
   }
 }
-/* // whatsapp placement on all screens */
-/* .whatsapp-placement {
-  position: fixed;
-  bottom: 0;
-  left: 10px;
-  width: 100%;
-  top: 100%;
-}
-.whatsapp-placement i {
-  color: red;
-} */
+
 .whats-app {
   position: fixed;
   width: 60px;
@@ -8624,10 +8612,33 @@ h6 {
   border-radius: 50px;
   text-align: center;
   font-size: 30px;
-  box-shadow: 2px  #999;
+  box-shadow: 2px #999;
   z-index: 100;
 }
 
 .my-float {
   margin-top: 16px;
+}
+/* // image up down animation in about page */
+.up-down-animation {
+  -webkit-animation: action 2s infinite linear;
+  animation: action 2s infinite linear;
+}
+@-webkit-keyframes action {
+  0% {
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+  }
+}
+@keyframes action {
+  0% {
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+  }
 }

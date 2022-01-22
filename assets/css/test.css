@@ -8603,3 +8603,27 @@ h6 {
     width: 100%;
   }
 }
+
+/* // image up down animation in about page */
+.up-down-animation {
+  -webkit-animation: action 2s infinite linear;
+  animation: action 2s infinite linear;
+}
+@-webkit-keyframes action {
+  0% {
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+  }
+}
+@keyframes action {
+  0% {
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+  }
+}
