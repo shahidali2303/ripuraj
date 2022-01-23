@@ -7427,6 +7427,7 @@ h6 {
 
 .about-three__image {
   margin-bottom: 50px;
+  filter: drop-shadow(10px 10px 10px rgb(146, 144, 144));
 }
 
 @media (min-width: 992px) {
@@ -8623,6 +8624,7 @@ h6 {
 .up-down-animation {
   -webkit-animation: action 2s infinite linear;
   animation: action 2s infinite linear;
+  box-shadow: 10px;
 }
 @-webkit-keyframes action {
   0% {
@@ -8641,4 +8643,26 @@ h6 {
   }
   100% {
   }
+}
+/* // product detail page  */
+.sonashakti-img {
+  filter: drop-shadow(10px 10px 10px rgb(146, 144, 144));
+}
+.product-details-desc {
+  margin-bottom: 100px;
+}
+.border-line {
+  border: 1px solid green;
+  border-radius: 5px;
+}
+.product-of-india {
+  margin-top: 30px;
+  font-weight: bolder;
+}
+.product-of-india h4 {
+  font-weight: bolder;
+}
+.table-style {
+  background-color: #f6f5f2;
+  border-radius: 15px;
 }
