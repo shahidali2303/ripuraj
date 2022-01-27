@@ -698,7 +698,7 @@
                 />
               </div>
               <div class="indicators">
-                <span id="btn1" class="active"></span>
+                <span id="btn1" class="testimonial-active"></span>
                 <span id="btn2"></span>
                 <span id="btn3"></span>
               </div>
@@ -711,21 +711,21 @@
 
               btn1.onclick = function () {
                 slide.style.transform = "translateX(0px)";
-                btn1.classList.add("active");
-                btn2.classList.remove("active");
-                btn3.classList.remove("active");
+                btn1.classList.add("testimonial-active");
+                btn2.classList.remove("testimonial-active");
+                btn3.classList.remove("testimonial-active");
               };
               btn2.onclick = function () {
                 slide.style.transform = "translateX(-100%)";
-                btn2.classList.add("active");
-                btn1.classList.remove("active");
-                btn3.classList.remove("active");
+                btn2.classList.add("testimonial-active");
+                btn1.classList.remove("testimonial-active");
+                btn3.classList.remove("testimonial-active");
               };
               btn3.onclick = function () {
                 slide.style.transform = "translateX(-200%)";
-                btn3.classList.add("active");
-                btn1.classList.remove("active");
-                btn2.classList.remove("active");
+                btn3.classList.add("testimonial-active");
+                btn1.classList.remove("testimonial-active");
+                btn2.classList.remove("testimonial-active");
               };
             </script>
           </div>
@@ -952,7 +952,9 @@
                 <!-- /.footer-widget__title -->
                 <ul class="list-unstyled footer-widget__links">
                   <li><a href="recipes.html">Recipes</a></li>
-                  <li><a href="#">Infrastructure & Plants</a></li>
+                  <li>
+                    <a href="infrastructure.html">Infrastructure & Plants</a>
+                  </li>
                   <li><a href="gallery.html">Photo Gallary</a></li>
                   <li><a href="product.html">Products</a></li>
                   <li><a href="contact.html">Contact Us</a></li>
