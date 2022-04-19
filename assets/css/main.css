@@ -8734,3 +8734,9 @@ h6 {
 .home-active {
   background: whitesmoke !important;
 }
+.packaging {
+  margin-top: 20px;
+}
+.packaging-details a i {
+  color: var(--thm-base);
+}
