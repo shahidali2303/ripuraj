@@ -4949,13 +4949,13 @@ h6 {
 /* -------------------------- contact-us-img ---------------------------------- */
 @media (max-width: 1440px) and (min-width: 1025px) {
   .contact-us-img {
-    width: 800px;
+    width: 700px;
     margin-left: 20px;
   }
 }
 @media (max-width: 1024px) and (min-width: 769px) {
   .contact-us-img {
-    width: 500px;
+    width: 400px;
     margin-top: 50px;
   }
 }
