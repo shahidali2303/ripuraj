@@ -940,7 +940,7 @@
 }
 
 .blog-card__content .thm-btn:hover {
-  background-color: var(--thm-black);
+  background-color: #2a2924;
   color: #fff;
 }
 
@@ -4199,12 +4199,12 @@ h6 {
 .client-carousel img {
   -webkit-transition: 500ms;
   transition: 500ms;
-  opacity: 0.3;
+  opacity: 0.8;
   max-width: 100%;
 }
 
 .client-carousel img:hover {
-  opacity: 0.8;
+  opacity: 1;
 }
 
 .client-carousel__about-page {
@@ -7416,15 +7416,15 @@ h6 {
 }
 
 .about-three {
-  padding-top: 96px;
-  padding-bottom: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   position: relative;
 }
 
 @media (min-width: 992px) {
   .about-three {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 55px;
+    padding-bottom: 50px;
   }
 }
 
@@ -8762,4 +8762,7 @@ h6 {
 .view-all:hover {
   background-color: #2a2924;
   color: white;
+}
+.hq-1 {
+  top: 30px;
 }
