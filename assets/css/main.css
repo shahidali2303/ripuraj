@@ -2641,11 +2641,14 @@ h6 {
   -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: flex-start;
+
   background-color: var(--thm-primary);
   border-radius: 5px;
   padding: 18px 17px;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
+}
+.main-header__info-phone {
 }
 
 .main-header__info-phone > i {
@@ -2682,7 +2685,7 @@ h6 {
 }
 
 .main-header__info-phone:hover {
-  background-color: var(--thm-black);
+  background-color: #2a2924;
 }
 
 .main-menu .mobile-nav__toggler {
