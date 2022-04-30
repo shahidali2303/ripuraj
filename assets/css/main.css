@@ -8740,5 +8740,13 @@ h6 {
 .packaging-details a i {
   color: var(--thm-base);
 }
-.home-video-div {
+.new-prod-content {
+  margin-top: 50px;
+}
+.gallery-new div {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.gallery-new div a img {
+  border-radius: 10px;
 }
