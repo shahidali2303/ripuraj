@@ -5989,8 +5989,8 @@ h6 {
 }
 
 .call-to-action__two .thm-btn:hover {
-  background-color: #fff;
-  color: var(--thm-black);
+  background-color: white;
+  color: #2a2924;
 }
 
 .call-to-action__three {
@@ -6142,7 +6142,7 @@ h6 {
 
 .call-to-action__three .thm-btn:hover {
   background-color: #fff;
-  color: var(--thm-black);
+  color: #2a2924;
 }
 
 .call-to-action__two-home-two {
@@ -7186,8 +7186,8 @@ h6 {
 }
 
 .about-one .thm-btn:hover {
-  background-color: var(--thm-base);
-  color: #fff;
+  background-color: #2a2924;
+  color: white;
 }
 
 .about-two {
@@ -8752,4 +8752,14 @@ h6 {
 }
 .gallery-new div a img {
   border-radius: 10px;
+}
+.about-company-button:hover {
+  color: #2a2924;
+}
+.view-all {
+  background-color: var(--thm-primary);
+}
+.view-all:hover {
+  background-color: #2a2924;
+  color: white;
 }
