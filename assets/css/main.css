@@ -8632,6 +8632,10 @@ h6 {
 
 .my-float {
   margin-top: 16px;
+  color: white;
+}
+.my-float:hover {
+  color: white;
 }
 /* // image up down animation in about page */
 .up-down-animation {
